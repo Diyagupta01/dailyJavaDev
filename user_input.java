@@ -3,19 +3,19 @@ import java.util.Scanner;
 public class user_input {
     public static void main(String[] args){
 
-        Scanner enter = new Scanner(System.in);
+        Scanner dissp = new Scanner(System.in);
         System.out.println("What is your name?  ");
-        String name = enter.nextLine();
+        String name = dissp.nextLine();
         System.out.println("Hello, " + name + "!");
 
         System.out.println("How old are you?  ");
-        int age = enter.nextInt();
+        int age = dissp.nextInt();
         System.out.println("You are "+ age +"years old.");
 
-        enter.nextLine(); //to remove extra \n left ater nextInt()
+        dissp.nextLine(); //to remove extra \n left ater nextInt()
 
         System.out.println("What is your hobby?  ");
-        String hobby = enter.nextLine();
+        String hobby = dissp.nextLine();
         System.out.println("I love " + hobby + "!:)");
     }
 }
