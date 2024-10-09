@@ -10,7 +10,7 @@ public class arrays {
         flowers[1] = "LILY";
         flowers[2] = "DAISY";
 
-        for(int i =0,i<3){
+        for(int i =0;i<3;i++){
         System.out.println(flowers[i]);
         }
     }
