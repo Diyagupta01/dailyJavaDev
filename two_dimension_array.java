@@ -1,4 +1,4 @@
-public interface two_dimension_array {
+public class two_dimension_array {
  public static void main(String[] args) {
     String[][] arr = new String[2][3];
     arr[0][0] = "1";
