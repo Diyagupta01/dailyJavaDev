@@ -17,6 +17,8 @@ Character b = '@';
 Integer C = 123;
 Double d = 3.14;
 String e = "Diyaaaa";
+
+System.out.println(a+b+c+d+e);
     
    }
 }
