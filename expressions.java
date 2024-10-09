@@ -12,11 +12,11 @@ public class expressions {
         friends /= 3;
         friends %= 3;
 
-        double new = 10;
-        new /= 3;
+        double neww = 10;
+        neww /= 3;
 
         System.out.println("Friends after expressions: " + friends);
-        System.out.println("new after expressions: " + new);
+        System.out.println("new after expressions: " + neww);
 
     }
 }
