@@ -18,7 +18,12 @@ Integer C = 123;
 Double d = 3.14;
 String e = "Diyaaaa";
 
-System.out.println(a+b+c+d+e);
+System.out.println(a);
+System.out.println(b);
+System.out.println(C);
+System.out.println(d);
+System.out.println(e);
+
     
    }
 }
