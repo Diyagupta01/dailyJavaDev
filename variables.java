@@ -11,6 +11,7 @@ public class variables {
         // doesnt add instead concatenates 
 
         char symbol = '@';
+        System.out.println("My symbol is: "+ symbol);
 
         String name = "Diya";
         System.out.println("My name is: "+ name);
