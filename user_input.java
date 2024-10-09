@@ -17,5 +17,7 @@ public class user_input {
         System.out.println("What is your hobby?  ");
         String hobby = dissp.nextLine();
         System.out.println("I love " + hobby + "!:)");
+
+        dissp.close();
     }
 }
