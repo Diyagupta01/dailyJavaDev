@@ -1,0 +1,53 @@
+public class overloaded_methods {
+    public static void main(String[] args) {
+
+        // overloaded methods = methods that share the same name but have different
+        // parameters
+
+        // method name + parameters = method signature
+
+        int x = add(1, 2);
+        int y = add(1, 2, 3);
+        int z = add(1, 2, 3, 4);
+        double r = add(1.0, 2.0);
+        double s = add(1.0, 2.0, 3.0);
+        double t = add(1.0, 2.0, 3.0, 4.0);
+        System.out.println(x);
+        System.out.println(y);
+        System.out.println(z);
+        System.out.println(r);
+        System.out.println(s);
+        System.out.println(t);
+
+    }
+
+    static int add(int a, int b) {
+        System.out.println("This is overloaded method #1");
+        return a + b;
+    }
+
+    static int add(int d, int e, int f) {
+        System.out.println("This is overloaded method #2");
+        return d + e + f;
+    }
+
+    static int add(int d, int e, int f, int c) {
+        System.out.println("This is overloaded method #3");
+        return d + e + f + c;
+    }
+
+    static double add(double a, double b) {
+        System.out.println("This is overloaded method #4");
+        return a + b;
+    }
+
+    static double add(double d, double e, double f) {
+        System.out.println("This is overloaded method #5");
+        return d + e + f;
+    }
+
+    static double add(double d, double e, double f, double c) {
+        System.out.println("This is overloaded method #6");
+        return d + e + f + c;
+    }
+}
