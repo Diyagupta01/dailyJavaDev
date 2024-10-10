@@ -12,7 +12,7 @@ class Human {
 
     // Method to display human details
     public void display() {
-        System.out.println("Name: " + name + ", Age: " + age + ", Weight: " + weight);
+        System.out.println("Name: " + this.name + ", Age: " + this.age + ", Weight: " + this.weight);
     }
 }
 
