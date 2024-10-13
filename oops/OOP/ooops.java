@@ -1,5 +1,6 @@
 
-package oops;
+package OOP;
+
 public class ooops {
    public static void main(String[] args) {
 

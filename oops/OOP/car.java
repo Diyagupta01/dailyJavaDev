@@ -1,4 +1,4 @@
-package oops;
+package OOP;
 public class car {
    String make = "Chevrolet";
    String model = "Corvette";
