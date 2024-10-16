@@ -1,3 +1,4 @@
+//package ArrayOfObjects;
 public class array_of_objects {
     public static void main(String[] args) {
        // food[] refrFoods = new food[3];
