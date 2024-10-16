@@ -1,3 +1,4 @@
+//package staticKeyword;
 public class Friend {
   
     String name;

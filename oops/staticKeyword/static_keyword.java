@@ -1,3 +1,5 @@
+//import staticKeyword.Friend;
+
 public class static_keyword {
     public static void main(String[] args) {
         Friend friend1 = new Friend("Riya");
